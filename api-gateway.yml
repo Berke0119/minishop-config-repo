@@ -25,3 +25,7 @@ spring:
                 redis-rate-limiter.replenishRate: 3
                 redis-rate-limiter.burstCapacity: 6
                 key-resolver: "#{@ipKeyResolver}"
+
+eureka:
+  instance:
+    prefer-ip-address: true
