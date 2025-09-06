@@ -4,11 +4,6 @@ spring:
       cache:
         enabled: true
         ttl: 5s
-      health-check:
-        enabled: true
-        path: /actuator/health
-        interval: 5s
-        refetch-instances: true
     gateway:
       routes:
         - id: product-route
