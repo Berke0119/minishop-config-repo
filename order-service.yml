@@ -8,6 +8,10 @@ spring:
     username: sa
     password:
 
+  cloud:
+    loadbalancer:
+      enabled: true
+
   jpa:
     hibernate:
       ddl-auto: update
